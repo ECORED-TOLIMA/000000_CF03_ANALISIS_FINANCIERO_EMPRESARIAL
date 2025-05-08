@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre del recurso educativo',
-    descripcionCurso: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo:
+      'Herramientas tecnológicas para el análisis financiero',
+    descripcionCurso:
+      'Este componente fortalece las competencias del aprendiz en el uso de herramientas tecnológicas, especialmente Excel, para el análisis financiero. A través de funciones básicas, fórmulas, gráficos y ejercicios aplicados, se desarrollan habilidades para calcular e interpretar indicadores clave de liquidez, rentabilidad, endeudamiento y eficiencia. Su enfoque práctico permite aplicar los conceptos en situaciones reales y tomar decisiones basadas en datos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {

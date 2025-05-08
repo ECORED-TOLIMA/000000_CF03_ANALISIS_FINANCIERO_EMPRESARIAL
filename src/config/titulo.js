@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Herramientas tecnológicas para el análisis financiero'

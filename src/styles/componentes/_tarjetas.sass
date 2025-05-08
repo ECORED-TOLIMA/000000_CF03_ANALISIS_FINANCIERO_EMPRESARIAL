@@ -97,6 +97,7 @@
     display: block
     width: $tarjeta-avatar-ancho-img
     margin: 0 auto
+
   .tarjeta
     display: inline-block
     padding-top: 60px !important
@@ -104,12 +105,14 @@
 
 .tarjeta-avatar-b
   display: flex
+
   &__img
     min-width: $tarjeta-avatar-b-ancho-img
     max-width: $tarjeta-avatar-b-ancho-img
     position: relative
     display: flex
     align-items: center
+  
   .tarjeta
     width: 100%
     margin-left: - $tarjeta-avatar-b-ancho-img / 2
@@ -300,3 +303,32 @@
       display: none
     i:last-child
       display: block
+
+//Tarjetas BG
+.tarjeta--BG02
+  background-image: url("../assets/curso/temas/tema1/fondo_v1.png")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+
+////////// Tarjeta numeradas ---------------------------------------------
+
+.tarjeta-numerada
+  height: 100%
+  
+.tarjeta-numerada__numero
+  background-color: #D2E1F1
+
+.color-acento-botones-especial
+  color: #D2E1F1
+
+///////// Tarjeta color -------------------------------------------------
+
+.tarjeta--gris2
+  background-color: #F6F8DE
+
+.tarjeta--gris
+  background-color: #FBE3FF
