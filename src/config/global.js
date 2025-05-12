@@ -1,8 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre del recurso educativo',
-    descripcionCurso: 'Descripción del RED',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    componenteFormativo:
+      'Herramientas tecnológicas para el análisis financiero',
+    descripcionCurso:
+      'Este componente fortalece las competencias del aprendiz en el uso de herramientas tecnológicas, especialmente Excel, para el análisis financiero. A través de funciones básicas, fórmulas, gráficos y ejercicios aplicados, se desarrollan habilidades para calcular e interpretar indicadores clave de liquidez, rentabilidad, endeudamiento y eficiencia. Su enfoque práctico permite aplicar los conceptos en situaciones reales y tomar decisiones basadas en datos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
@@ -31,12 +33,13 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo:
+          'Fundamentos del uso de herramientas tecnológicas en el análisis financiero',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo_de_segundo_nivel',
+            titulo: 'Introducción a funciones básicas de Excel',
             hash: 't_1_1',
           },
         ],
@@ -45,13 +48,14 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo: 'Cálculo e interpretación de indicadores financieros en Excel',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo_de_primer_nivel',
+        titulo:
+          'Aplicación práctica en video: Ejercicios guiados en Excel para el análisis financiero',
         desarrolloContenidos: true,
       },
     ],
@@ -116,14 +120,70 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Termino_glosario',
-      significado: 'Significado_glosario',
+      termino: 'Excel',
+      significado:
+        'Herramienta tecnológica que permite organizar, calcular y analizar información financiera mediante hojas de cálculo y funciones especializadas.',
+    },
+    {
+      termino: 'Fórmula',
+      significado:
+        'Instrucción escrita en una celda de Excel para realizar cálculos automáticamente a partir de datos numéricos.',
+    },
+    {
+      termino: 'Referencia Absoluta',
+      significado:
+        'Tipo de referencia en Excel que permanece fija al copiar una fórmula (ejemplo: $B$2).',
+    },
+    {
+      termino: 'Razón Corriente',
+      significado:
+        'Indicador financiero que muestra la capacidad de la empresa para pagar sus obligaciones de corto plazo.',
+    },
+    {
+      termino: 'Margen Neto',
+      significado:
+        'Porcentaje de las ventas que se convierte en utilidad neta luego de deducir todos los costos y gastos.',
+    },
+    {
+      termino: 'Rotación de Cartera',
+      significado:
+        'Indicador que mide la eficiencia en la recuperación de cuentas por cobrar a partir de las ventas a crédito.',
+    },
+    {
+      termino: 'Endeudamiento Externo',
+      significado:
+        'Mide qué proporción de los activos de una empresa ha sido financiada con recursos de terceros.',
+    },
+    {
+      termino: 'Indicador Financiero',
+      significado:
+        'Cualquier medida cuantitativa utilizada para evaluar el desempeño financiero de una empresa, como la rentabilidad, liquidez, eficiencia o solvencia.',
     },
   ],
   referencias: [
     {
-      referencia: 'Nombre_referencias',
-      link: 'Link_referencias',
+      referencia:
+        'Coral Delgado, L. C. & Gudiño Dávila, E. L. (2014). Contabilidad universitaria. (7ª Edición). Bogotá, Colombia: Editorial. Mc Graw Hill.',
+      link: '',
+    },
+    {
+      referencia:
+        'Díaz, H. (2006). Contabilidad general. (2ª Edición). México DF, México: Editorial. Pearson Prentice Hall.',
+      link: '',
+    },
+    {
+      referencia:
+        'García, O. L. (2009). Administración financiera: Fundamentos y aplicaciones. (4ª Edición). Bogotá, Colombia: Editorial. Desconocida.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ortiz Anaya, H. (2011). Análisis financiero aplicado y principios de administración financiera. (14ª Edición). Bogotá, Colombia: Editorial. Universidad Externado de Colombia.',
+      link: '',
+    },
+    {
+      referencia: 'Microsoft. (s.f.). Funciones financieras de Excel.',
+      link: '',
     },
   ],
   creditos: [
@@ -147,14 +207,13 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Juan Carlos Camargo Solano',
-          cargo: 'Experta temática',
-          centro:
-            'Centro Nacional de Hotelería, Turismo y Alimentos - Regional Distrito Capital',
+          nombre: 'Gustavo Ernesto Mariño Puentes',
+          cargo: 'Experto temático',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Viviana Esperanza Herrera Quiñonez',
-          cargo: 'Evaluadora instruccional ',
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Evaluador instruccional',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
       ],
@@ -168,22 +227,22 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Juan Daniel Polanco Muñoz',
+          nombre: 'Lina Marcela Pérez Manchego',
           cargo: 'Diseñador web',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador Fullstack',
+          cargo: 'Desarrollador <em>Fullstack</em>',
+          centro: 'Centro de Comercio y Servicios - Regional Tolima',
+        },
+        {
+          nombre: 'Sebastian Trujillo Afanador',
+          cargo: 'Desarrollador <em>Fullstack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
-          cargo: 'Animador y productor audiovisual',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Ernesto Navarro Jaimes',
           cargo: 'Animador y productor audiovisual',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
@@ -195,11 +254,6 @@ export default {
         {
           nombre: 'Norma Constanza Morales Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
-          centro: 'Centro de Comercio y Servicios - Regional Tolima',
-        },
-        {
-          nombre: 'Jorge Bustos Gómez',
-          cargo: 'Validador y vinculador de recursos educativos digitales',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

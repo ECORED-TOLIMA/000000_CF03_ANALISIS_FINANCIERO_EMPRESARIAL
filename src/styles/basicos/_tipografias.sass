@@ -209,6 +209,31 @@
     background-color: lighten($color-acento-botones, 35%)
     &:before
       background-color: $color-acento-botones
+  &--C01
+    background-color: #F6F8DE
+  &--C02
+    background-color: #F1F8E9
+  &--BG01
+    background-image: url("../assets/curso/temas/BG01.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+  &--BG02
+    background-image: url("../assets/curso/temas/BG02.png")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    margin-inline: -3rem !important
+    @media (max-width: $bp-max-sm)
+      margin-inline: -1.5rem !important
+  
+.cajon.color-secundario
+  background-color: #E5E9FE
+.cajon.color-primario
+  background-color: #F1F8E9
 
 .cajon-b
   position: relative
@@ -322,3 +347,7 @@
     li
       > i:first-of-type
         color: $color-acento-contenido
+
+// viñetas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
