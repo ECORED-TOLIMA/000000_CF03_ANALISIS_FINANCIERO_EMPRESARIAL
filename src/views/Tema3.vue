@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Aplicación práctica: ejercicios guiados en Excel para el análisis financiero
+      h1 Aplicación práctica para el análisis financiero
 
     p.mb-5(data-aos="fade-down") El aprendizaje significativo en el análisis financiero, se potencia cuando los conceptos teóricos se trasladan a la práctica, mediante ejercicios reales. Por esta razón, esta temática, está orientada al uso de recursos audiovisuales que explican paso a paso cómo aplicar funciones de Excel en el cálculo y análisis de los principales indicadores financieros. Estos videos constituyen una herramienta didáctica complementaria que permite al aprendiz reforzar sus habilidades operativas de forma autónoma y visual.
 

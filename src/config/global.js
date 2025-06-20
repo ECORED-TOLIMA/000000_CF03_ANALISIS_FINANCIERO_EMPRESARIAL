@@ -54,8 +54,7 @@ export default {
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo:
-          'Aplicación práctica en video: Ejercicios guiados en Excel para el análisis financiero',
+        titulo: 'Aplicación práctica para el análisis financiero',
         desarrolloContenidos: true,
       },
     ],
