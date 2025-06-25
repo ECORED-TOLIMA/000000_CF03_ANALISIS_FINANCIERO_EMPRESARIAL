@@ -151,8 +151,8 @@
 
     p.mb-4 Las siguientes, son las ventajas contempladas al aplicar esta herramienta de análisis financiero:
 
-    .row.mb-5(data-aos="flip-up")
-      .col-md-6.col-xl.mb-4.mb-xl-0
+    .row.justify-content-center.mb-5
+      .col-md-5.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-primario.p-5
           .tarjeta-numerada__numero
             .h2 1
@@ -160,7 +160,7 @@
             b Automatización de cálculos
           p Reduce el error humano y permite replicar modelos financieros.
           
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-5.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-contenido.p-5
           .tarjeta-numerada__numero
             .h2 2
@@ -168,7 +168,7 @@
             b Análisis de escenarios
           p Facilita la toma de decisiones al evaluar distintas posibilidades.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-5.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-secundario.p-5
           .tarjeta-numerada__numero
             .h2 3
@@ -176,7 +176,7 @@
             b Presentación clara de resultados
           p Gracias a sus herramientas gráficas y tablas dinámicas.
 
-      .col-md-6.col-xl.mb-4.mb-xl-0
+      .col-md-5.col-xl.mb-4.mb-xl-0
         .tarjeta-numerada.color-acento-botones-especial.p-5
           .tarjeta-numerada__numero
             .h2 4
