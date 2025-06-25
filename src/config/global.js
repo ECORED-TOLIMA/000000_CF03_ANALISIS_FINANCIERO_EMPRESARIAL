@@ -105,16 +105,26 @@ export default {
   },
   complementario: [
     {
-      tema: 'Tema_complementario',
-      referencia: 'Referencia_complementario',
-      tipo: 'Tipo_complementario',
-      link: 'Link_complementario',
+      tema: '2. Cálculo e interpretación de indicadores financieros en ExceL 7',
+      referencia:
+        'Ecosistema de Recursos Educativos SENA. (2021). Verificación metodológica de indicadores.',
+      tipo: 'Video',
+      link: 'https://www.youtube.com/watch?v=36F4nXHgV9k ',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema:
+        '3. Aplicación práctica: ejercicios guiados en Excel para el análisis financiero',
+      referencia:
+        'Mariño Puentes G. E. (2025). Indicadores empresa “CINE FUTURO”.',
+      tipo: 'Documento',
+      descarga: '/downloads/Indicadores_CINE_FUTURO.xlsx',
+    },
+    {
+      tema:
+        '3. Aplicación práctica: ejercicios guiados en Excel para el análisis financiero',
+      referencia: 'Mariño Puentes G. E. (2025). Formato indicadores.',
+      tipo: 'Documento',
+      descarga: '/downloads/Formato_indicadores.xlsx',
     },
   ],
   glosario: [
@@ -129,32 +139,32 @@ export default {
         'Instrucción escrita en una celda de Excel para realizar cálculos automáticamente a partir de datos numéricos.',
     },
     {
-      termino: 'Referencia Absoluta',
+      termino: 'Referencia absoluta',
       significado:
         'Tipo de referencia en Excel que permanece fija al copiar una fórmula (ejemplo: $B$2).',
     },
     {
-      termino: 'Razón Corriente',
+      termino: 'Razón corriente',
       significado:
         'Indicador financiero que muestra la capacidad de la empresa para pagar sus obligaciones de corto plazo.',
     },
     {
-      termino: 'Margen Neto',
+      termino: 'Margen neto',
       significado:
         'Porcentaje de las ventas que se convierte en utilidad neta luego de deducir todos los costos y gastos.',
     },
     {
-      termino: 'Rotación de Cartera',
+      termino: 'Rotación de cartera',
       significado:
         'Indicador que mide la eficiencia en la recuperación de cuentas por cobrar a partir de las ventas a crédito.',
     },
     {
-      termino: 'Endeudamiento Externo',
+      termino: 'Endeudamiento externo',
       significado:
         'Mide qué proporción de los activos de una empresa ha sido financiada con recursos de terceros.',
     },
     {
-      termino: 'Indicador Financiero',
+      termino: 'Indicador financiero',
       significado:
         'Cualquier medida cuantitativa utilizada para evaluar el desempeño financiero de una empresa, como la rentabilidad, liquidez, eficiencia o solvencia.',
     },

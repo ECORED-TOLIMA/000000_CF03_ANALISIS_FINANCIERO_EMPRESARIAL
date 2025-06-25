@@ -16,7 +16,7 @@
       .bloque-texto-g__texto.p-4
         p Cada video está diseñado para abordar un grupo de indicadores específicos, utilizando casos hipotéticos con cifras reales de una empresa simulada. El objetivo es que el aprendiz pueda replicar los procedimientos desde su propia hoja de cálculo, comprendiendo no solo las fórmulas empleadas, sino también su lógica financiera, correcta interpretación y utilidad para la toma de decisiones.
 
-    p.mb-5(data-aos="fade-down") A lo largo de los videos, se orienta al aprendiz en el uso de referencias absolutas y relativas, el diseño de resúmenes financieros, el uso de formatos condicionales para resaltar desviaciones y la representación gráfica de tendencias, a través de gráficos de líneas o barras. Asimismo, se incluyen recomendaciones para validar los resultados, detectar errores comunes y estructurar reportes ejecutivos que puedan ser presentados a directivos o stakeholders (grupos de interés) de la organización.
+    p.mb-5(data-aos="fade-down") A lo largo de los videos, se orienta al aprendiz en el uso de referencias absolutas y relativas, el diseño de resúmenes financieros, el uso de formatos condicionales para resaltar desviaciones y la representación gráfica de tendencias, a través de gráficos de líneas o barras. Asimismo, se incluyen recomendaciones para validar los resultados, detectar errores comunes y estructurar reportes ejecutivos que puedan ser presentados a directivos o #[em stakeholders] (grupos de interés) de la organización.
 
     .row.justify-content-center.mb-5(data-aos="fade-down-right") 
       .col-10
@@ -55,7 +55,7 @@
         .cajon.cajon--C01.p-2.mb-0
           .row.justify-content-center.align-items-center
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              p.text-bold Razón corriente = Activo corriente / Pasivo corriente
+              p.text-bold.text-center Razón corriente = Activo corriente / Pasivo corriente
 
     p(data-aos="fade-down") En Excel, para calcularla, se debe identificar en el estado de situación financiera las celdas correspondientes al total del activo corriente y al total del pasivo corriente. Por ejemplo, si el activo corriente está en la celda B5 y el pasivo corriente en B10, se escribe la fórmula =B5/B10. Este valor superior a 1 indica que la empresa posee más activos líquidos que deudas inmediatas, lo cual es positivo desde el punto de vista financiero.
     p.mb-4(data-aos="fade-down") Se sugiere acceder al siguiente video, el cual explica dicho procedimiento del indicador de razón corriente:
@@ -64,7 +64,7 @@
       .col-lg-12(data-aos="flip-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/M6_TJTHw4Js?si=FCwlkHIx1yQDx5y6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
@@ -91,7 +91,7 @@
         .col-lg-12(data-aos="flip-down")
           figure
             .video
-              iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+              iframe(width="560" height="315" src="https://www.youtube.com/embed/JCMoT3Bkgk0?si=Ops1vuvl91VLxaJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
@@ -127,7 +127,7 @@
       .col-lg-12(data-aos="flip-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/vidkupF5pgA?si=0Y3UOi31gdHHKwYG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
@@ -160,7 +160,7 @@
       .col-lg-12(data-aos="flip-down")
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/LxmYGh4WyJs?si=yigfNieFO5oUZKIj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")

@@ -11,31 +11,35 @@
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="flip-up")
       .col-lg-10.col-12
-        .row.justify-content-center.align.cajon.C01.p-4
-          .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-0.px-4
-            ul.lista-ul
-              li.mb-3 
-                i.fas.fa-angle-right
-                | Comprender dinámicamente la situación financiera de una organización.
-              li.mb-3 
-                i.fas.fa-angle-right
-                | Anticiparse a riesgos.
-              li.mb-0 
-                i.fas.fa-angle-right
-                | Tomar decisiones basadas en datos. 
-          .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0
-            figure
-              img(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen decorativa')  
+        .cajon.cajon--C02.p-4.mb-4
+          .row.justify-content-center.align-items-center
+            .col-lg-8.col-12.mb-md-0.order-lg-2.order-2.mb-lg-0.mb-0.px-4
+              ul.lista-ul
+                li.mb-3 
+                  i.fas.fa-angle-right(style="color:#B0BDA0")
+                  | Comprender dinámicamente la situación financiera de una organización.
+
+                li.mb-3 
+                  i.fas.fa-angle-right(style="color:#B0BDA0")
+                  | Anticiparse a riesgos.
+
+                li.mb-0 
+                  i.fas.fa-angle-right(style="color:#B0BDA0")
+                  | Tomar decisiones basadas en datos. 
+
+            .col-lg-3.col-6.col-md-6.col-8.order-lg-1.order-1.mb-lg-0.mb-3.px-0
+              figure
+                img(src='@/assets/curso/temas/tema1/img01.png', alt='Imagen decorativa') 
 
     p.mb-4(data-aos="fade-down") En este contexto, la tecnología juega un papel esencial al facilitar procesos que antes eran manuales, lentos y propensos a errores.
 
     p.mb-5(data-aos="fade-down") Los tomadores de decisiones como gerentes, analistas financieros o contadores, requieren información clara, precisa y oportuna. Para lograrlo, necesitan:
 
-    .cajon.cajon--BG01.px-md-5.px-4.mb-5
-      .row.justify-content-center.align-items-center(data-aos="fade-down")
-        .col-lg-3.d-none.d-lg-block
+    .cajon.cajon--BG01.px-md-5.px-4.mb-4
+      .row.justify-content-center.align-items-end(data-aos="fade-down")
+        .col-lg-3.d-none.d-lg-block.px-0
           figure(data-aos="zoom-in")
-            img(src="@/assets/curso/temas/tema1/img02.png", alt="alt").img400.m-auto
+            img(src="@/assets/curso/temas/tema1/img02.png", alt="alt").m-auto
         .col-lg-9
           SlyderF.custom(columnas="col-lg-6 col-xl-4")
             .tarjeta.tarjeta--slyder.p-4
@@ -135,7 +139,7 @@
           .col-lg-7.col-12.mb-3(data-aos="fade-right")
             .bloque-texto-b.color-primario.py-4
               .bloque-texto-b__texto
-                p.mb-0 Otra ventaja importante es la posibilidad de representar la información financiera de forma visual, mediante gráficos, dashboards, tablas dinámicas y reportes interactivos. Esta representación mejora la comprensión del estado financiero de la organización, tanto para los expertos como para directivos, inversionistas o partes interesadas que no tienen formación técnica en contabilidad o finanzas. Así, la tecnología cumple también un rol comunicativo clave dentro de la gestión organizacional.
+                p.mb-0 Otra ventaja importante es la posibilidad de representar la información financiera de forma visual, mediante gráficos, #[em dashboards,] tablas dinámicas y reportes interactivos. Esta representación mejora la comprensión del estado financiero de la organización, tanto para los expertos como para directivos, inversionistas o partes interesadas que no tienen formación técnica en contabilidad o finanzas. Así, la tecnología cumple también un rol comunicativo clave dentro de la gestión organizacional.
 
     .row.align-items-center.mb-4
       .col-auto.pe-0(style="z-index:2")
@@ -351,13 +355,13 @@
       .col-lg-7.col-12
         .titulo-sexto.color-acento-contenido(data-aos="fade-right")
           h5 Tabla 1.
-          i Variación porcentual por años
+          i Ingresos mensuales
         .tabla-a.color-acento-contenido.mb-5
           table(data-aos="zoom-in"  alt="En la tabla 2, se presentan ejemplos de metas aplicadas a un proyecto turístico en Colombia, destacando su alineación con objetivos estratégicos como sostenibilidad, desarrollo de infraestructura, promoción del destino y beneficio para la comunidad local.")
             thead
               tr(data-aos="fade-right")
-                th(style="background-color: #FBE3FF; width: 20%; font-size: 18px;") MES
-                th(style="background-color: #FBE3FF; width: 20%; font-size: 18px;") INGRESOS
+                th(style="background-color: #BFC9FF; width: 20%; font-size: 18px;") MES
+                th(style="background-color: #BFC9FF; width: 20%; font-size: 18px;") INGRESOS
             tbody
               tr(data-aos="fade-right")
                 td #[b Enero]
