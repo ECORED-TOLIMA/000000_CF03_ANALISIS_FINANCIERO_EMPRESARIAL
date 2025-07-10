@@ -202,7 +202,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img12.svg', alt='Imagen decorativa')
             .col-lg-6.col-12.mb-3.order-lg-1.order-2.mb-lg-0.p-4
-              p Una de sus aplicaciones más relevantes es el análisis de indicadores financieros, también conocidos como razones financieras. Estos indicadores permiten medir aspectos fundamentales como la rentabilidad, la liquidez, el nivel de endeudamiento, la eficiencia operativa y el valor creado por la empresa. Con funciones adecuadas y el uso de fórmulas simples o complejas, Excel permite calcular y visualizar estos indicadores de manera clara, dinámica y actualizable
+              p Una de sus aplicaciones más relevantes es el análisis de indicadores financieros, también conocidos como razones financieras. Estos indicadores permiten medir aspectos fundamentales como la rentabilidad, la liquidez, el nivel de endeudamiento, la eficiencia operativa y el valor creado por la empresa. Con funciones adecuadas y el uso de fórmulas simples o complejas, Excel permite calcular y visualizar estos indicadores de manera clara, dinámica y actualizable.
 
         p Al organizar adecuadamente los datos y vincularlos con las fórmulas correspondientes, el usuario puede construir reportes que se actualizan automáticamente con la información contable más reciente. Esta capacidad convierte a Excel en un aliado estratégico para la toma de decisiones financieras, ya que ayuda a identificar fortalezas, debilidades y oportunidades de mejora en la gestión de los recursos económicos de la organización.
 
@@ -215,7 +215,7 @@
           h3.mb-0.ms-3 Requisitos previos para el uso de Excel en análisis financiero
 
     p Para aprovechar al máximo las herramientas que ofrece Excel en el análisis financiero, es importante que el aprendiz cuente con unos conocimientos previos fundamentales. Estos conocimientos constituyen la base sobre la cual se construyen modelos de análisis, informes y reportes financieros confiables y funcionales. Sin este dominio inicial, el uso de funciones más avanzadas puede resultar confuso o llevar a errores en la interpretación de resultados.
-    p.mb-5 Por lo anterior hay que tener presente los siguientes dos aspectos:
+    p.mb-5 Por lo anterior hay que tener presente los siguientes tres aspectos:
 
     .row.justify-content-center(data-aos="fade-down-right")
       .col-lg-4.col-12.mb-3.d-lg-flex.d-none

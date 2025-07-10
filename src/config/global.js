@@ -105,7 +105,7 @@ export default {
   },
   complementario: [
     {
-      tema: '2. Cálculo e interpretación de indicadores financieros en ExceL 7',
+      tema: '2. Cálculo e interpretación de indicadores financieros en ExceL',
       referencia:
         'Ecosistema de Recursos Educativos SENA. (2021). Verificación metodológica de indicadores.',
       tipo: 'Video',
@@ -246,7 +246,7 @@ export default {
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
-          nombre: 'Sebastian Trujillo Afanador',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador <em>Fullstack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
