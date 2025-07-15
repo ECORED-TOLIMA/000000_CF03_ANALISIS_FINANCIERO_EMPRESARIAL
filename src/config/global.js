@@ -1,7 +1,6 @@
 export default {
   global: {
-    componenteFormativo:
-      'Herramientas tecnológicas para el análisis financiero',
+    Name: 'Herramientas tecnológicas para el análisis financiero',
     descripcionCurso:
       'Este componente fortalece las competencias del aprendiz en el uso de herramientas tecnológicas, especialmente Excel, para el análisis financiero. A través de funciones básicas, fórmulas, gráficos y ejercicios aplicados, se desarrollan habilidades para calcular e interpretar indicadores clave de liquidez, rentabilidad, endeudamiento y eficiencia. Su enfoque práctico permite aplicar los conceptos en situaciones reales y tomar decisiones basadas en datos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
@@ -242,12 +241,12 @@ export default {
         },
         {
           nombre: 'Diego Fernando Velasco Güiza',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
           nombre: 'Francisco José Vásquez Suárez',
-          cargo: 'Desarrollador <em>Fullstack</em>',
+          cargo: 'Desarrollador <em>Full stack</em>',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {
